@@ -55,7 +55,7 @@ textarea:hover {
 }
 input:focus,
 textarea:focus {
-  border-color: blue;
+  border-color: rgb(0, 132, 255);
 }
 
 .container {
@@ -86,7 +86,7 @@ textarea:focus {
 }
 
 .blue {
-  color: blue !important;
+  color: rgb(0, 132, 255) !important;
 }
 .link__hover-effect {
   position: relative;
@@ -180,7 +180,7 @@ LANDING PAGE
   display: flex;
 }
 .social__link {
-  background-color: blue;
+  background-color: rgb(0, 132, 255);
   color: white;
   padding: 6px;
   width: 32px;
@@ -368,8 +368,8 @@ MODAL
   margin-bottom: 20px;
 }
 .form__submit {
-  background-color: blue;
-  border: 2px solid blue;
+  background-color: rgb(0, 132, 255);
+  border: 2px solid rgb(0, 132, 255);
   color: white;
   font-weight: bold;
   max-width: 240px;
@@ -383,8 +383,8 @@ MODAL
   background-color: transparent;
 }
 .form__submit:active {
-  border-color: blue;
-  color: blue;
+  border-color: rgb(0, 132, 255);
+  color: rgb(0, 132, 255);
 }
 .modal__overlay--loading {
   background-color: #242424;
@@ -402,7 +402,7 @@ MODAL
   z-index: -1;
 }
 .modal__overlay--success {
-  background-color: green;
+  background-color: rgb(28, 214, 28);
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -440,7 +440,9 @@ PROJECTS
 
 
 */
-
+.project {
+  padding: 50px 0;
+}
 .section__title {
   text-align: center;
   font-size: 48px;
@@ -449,6 +451,7 @@ PROJECTS
 .project__img {
   width: 100%;
   transition: all 600ms ease;
+  display: flex;
 }
 .project:hover .project__img {
   transform: scale(1.07);
@@ -457,7 +460,7 @@ PROJECTS
 .project__wrapper {
   position: relative;
   border-radius: 20px;
-  box-shadow: 0 20 80 0 rgb(0, 0, 0, 0.45);
+  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
   overflow: hidden;
 }
 .project__wrapper:hover .project__description {
