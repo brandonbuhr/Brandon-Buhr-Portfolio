@@ -183,8 +183,8 @@ LANDING PAGE
   background-color: rgb(0, 132, 255);
   color: white;
   padding: 6px;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   font-size: 14px;
   margin-right: 12px;
   display: flex;
@@ -229,6 +229,12 @@ LANDING PAGE
   border-radius: 2px;
   animation: scroll 1000ms infinite alternate-reverse;
 }
+.fa-github,
+.fa-linkedin-in,
+.fa-file-pdf {
+  font-size: 20px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateY(3px);
