@@ -606,7 +606,7 @@ SHAPES
 
 /* Small phones, tablets, large smartphones */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .title {
     font-size: 80px;
   }
@@ -625,11 +625,14 @@ SHAPES
   .modal__half {
     width: 100%;
   }
+  .project__description--para {
+    padding-right: 24px;
+  }
 }
 
 /* Small phones */
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .title {
     font-size: 52px;
   }
