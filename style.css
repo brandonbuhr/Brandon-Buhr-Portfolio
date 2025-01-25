@@ -86,8 +86,30 @@ textarea:focus {
 }
 
 .blue {
-  color: rgb(0, 132, 255) !important;
+  color: rgb(0, 132, 255);
 }
+.gradient-text {
+  font-weight: bold;
+  background-image: linear-gradient(45deg, rgb(0, 132, 255), purple);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient-animation 2s infinite linear;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .link__hover-effect {
   position: relative;
 }
@@ -151,8 +173,6 @@ nav,
   background-color: white;
   color: #242424;
 }
-
-
 
 /* 
 
