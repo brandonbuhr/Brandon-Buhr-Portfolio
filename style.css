@@ -170,8 +170,7 @@ nav,
 }
 
 .dark-theme .mail__btn {
-  background-color: white;
-  color: #242424;
+  background-color: #242424;
 }
 
 /* 
@@ -221,13 +220,10 @@ LANDING PAGE
   font-size: 32px;
   border-radius: 50%;
   border: none;
-  background-color: #242424;
-  color: white;
   position: fixed;
   bottom: 32px;
   right: 40px;
   z-index: 100;
-  box-shadow: 0 12px 30px 0 rgb(0, 0, 0, 0.3);
 }
 .scroll {
   position: absolute;
@@ -299,9 +295,7 @@ nav {
   color: #242424;
   font-weight: 700;
 }
-.fa-adjust {
-  font-size: 20px;
-}
+
 /*
 
 
@@ -457,9 +451,8 @@ MODAL
   position: absolute;
   top: 30px;
   right: 40px;
-  color: white;
-  font-size: 36px;
   z-index: 100;
+  width: 30px;
 }
 /*
 
@@ -539,7 +532,17 @@ PROJECTS
 .project__description--para {
   margin: 16px 0;
 }
-
+.project__icons {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 90%;
+  border: 1px solid white;
+  border-color: white;
+}
+.project__icons:hover {
+  transform: scale(1.1);
+}
 /*
 
 
