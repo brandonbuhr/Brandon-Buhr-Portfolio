@@ -210,6 +210,9 @@ LANDING PAGE
   align-items: center;
   border-radius: 50%;
 }
+.social__link:hover {
+  background-color: aqua;
+}
 .mail__btn {
   width: 70px;
   height: 70px;
@@ -532,7 +535,7 @@ PROJECTS
   border-color: white;
 }
 .project__icons:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 /*
 
