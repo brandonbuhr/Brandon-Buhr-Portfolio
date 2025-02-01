@@ -211,7 +211,7 @@ LANDING PAGE
   border-radius: 50%;
 }
 .social__link:hover {
-  background-color: aqua;
+  background-color: rgb(0, 132, 255);
 }
 .mail__btn {
   width: 70px;
