@@ -375,6 +375,7 @@ MODAL
 }
 .modal__title {
   font-size: 26px;
+  padding-bottom: 16px;
 }
 .modal__sub-title {
   margin: 12px 0 24px 0;
