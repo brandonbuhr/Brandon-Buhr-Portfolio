@@ -150,10 +150,12 @@ nav,
 }
 .dark-theme .title,
 .dark-theme .section__title,
+.dark-theme .fa-adjust {
+  color: rgb(0, 132, 255);
+}
 .dark-theme .section__sub-title,
-.dark-theme .nav__link--anchor,
-.dark-theme .fa-adjust,
-.dark-theme .header__para {
+.dark-theme .header__para,
+.dark-theme .nav__link--anchor {
   color: white;
 }
 .dark-theme section {
