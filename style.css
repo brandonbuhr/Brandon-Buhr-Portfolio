@@ -681,6 +681,7 @@ SHAPES
   }
   .project__description--title {
     font-size: 20px;
+    margin-bottom: 16px;
   }
   .modal__half {
     padding: 40px;
