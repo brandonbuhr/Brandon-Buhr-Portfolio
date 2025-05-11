@@ -629,9 +629,12 @@ SHAPES
   left: 80vw;
 }
 
-/* Small phones, tablets, large smartphones */
+/* Tablets, large smartphones */
 
 @media (max-width: 800px) {
+  .shape {
+    visibility: hidden;
+  }
   .title {
     font-size: 80px;
   }
@@ -658,6 +661,9 @@ SHAPES
 /* Small phones */
 
 @media (max-width: 640px) {
+  .shape {
+    visibility: hidden;
+  }
   .title {
     font-size: 52px;
   }
