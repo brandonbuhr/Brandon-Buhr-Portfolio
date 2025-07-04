@@ -541,6 +541,7 @@ PROJECTS
 }
 .project__icons:hover {
   transform: scale(1.3);
+  transition: all 300ms ease;
 }
 /*
 
