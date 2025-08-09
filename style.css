@@ -155,7 +155,8 @@ nav,
 }
 .dark-theme .section__sub-title,
 .dark-theme .header__para,
-.dark-theme .nav__link--anchor {
+.dark-theme .nav__link--anchor,
+.dark-theme .language__home--name {
   color: white;
 }
 .dark-theme section {
@@ -259,6 +260,41 @@ LANDING PAGE
   100% {
     transform: translateY(-3px);
   }
+}
+.language__home--container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.language__home--icon {
+  margin: 32px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.language__home--img {
+  width: 96px;
+  transition: all 300ms ease;
+}
+.language__home--name {
+  visibility: hidden;
+  color: black;
+  position: absolute;
+  bottom: -40px;
+  transform: scale(0);
+  transition: all 300ms ease;
+}
+.language__home--img:hover {
+  transform: scale(0.9);
+  filter: brightness(80%);
+}
+.language__home--icon:hover .language__home--name {
+  visibility: visible;
+  transform: scale(1);
 }
 /* 
 
